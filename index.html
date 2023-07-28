@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRES-EN-RAYA</title>
-    <link rel="stylesheet" href="/style.css">
-    <script defer src="/script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./scripts.js"></script>
 </head>
 
 <body>
     <h1>TRES-EN-RAYA</h1>
     <h2>By Carry 2023
         <a href="https://github.com/CarryARG/tres-en-raya">
-            <img src="/images/GitHub-Mark-120px-plus.png" alt="imagen de github">
+            <img src="./images/GitHub-Mark-120px-plus.png" alt="imagen de github">
         </a>
     </h2>
     <div class="gameOptions">
@@ -22,7 +21,12 @@
             <option>VS Player</option>
             <option>VS AI</option>
         </select>
-        <button id="playButton"></button>
+        <select id="difficultySelect" class="hidden">
+            <option>Easy</option>
+            <option>Medium</option>
+            <option>Hard</option>
+        </select>
+        <button id="playButton">Play!</button>
         <button id="resetButton" class="pressed">Reset</button>
     </div>
     <div id="board" class="desactivatedBoard">
@@ -36,7 +40,7 @@
         <div class="boardSquare"></div>
         <div class="boardSquare"></div>
     </div>
-    <div id="result Display"></div>
+    <div id="resultDisplay"></div>
 </body>
 
 </html>
