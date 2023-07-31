@@ -20,16 +20,18 @@
       row-gap: 3em;
       justify-items: center;
       align-items: center;
-      background-color: RGB(39, 94, 145);
+      background-color: #8eba43;
     }
   
     h1{
       color: aliceblue;
+      text-shadow: 0.5px 0.5px 4.5px black;
       font-size: 4em;
     }
   
     h2{
       display: flex;
+      text-shadow: 0.5px 0.5px 3.5px black;
       flex-direction: column;
       gap: 0.5em;
       justify-items: center;
@@ -109,11 +111,12 @@
       align-items: center;
       padding: 8px;
       border: none;
-      background-color: #EA4C89;
+      background-color: #f9dc24;
       border-radius: 8px;
       border-style: none;
       box-sizing: border-box;
-      color: #FFFFFF;
+      color: whitesmoke;
+      text-shadow: 0.5px 0.5px 3.5px black;
       cursor: pointer;
       display: inline-block;
       font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -131,7 +134,7 @@
     }
   
     select{
-      background-color: #EA4C89;
+      background-color: #4b7447;
       width: 8em;
     }
   
@@ -167,16 +170,18 @@
       row-gap: 3em;
       justify-items: center;
       align-items: center;
-      background-color: RGB(39, 94, 145);
+      background-color: #8eba43;
     }
   
     h1{
       color: aliceblue;
+      text-shadow: 0.5px 0.5px 4.5px black;
       font-size: 4em;
     }
   
     h2{
       display: flex;
+      text-shadow: 0.5px 0.5px 3.5px black;
       flex-direction: column;
       gap: 0.5em;
       justify-items: center;
@@ -256,11 +261,12 @@
       align-items: center;
       padding: 8px;
       border: none;
-      background-color: #EA4C89;
+      background-color: #f9dc24;
       border-radius: 8px;
       border-style: none;
       box-sizing: border-box;
-      color: #FFFFFF;
+      color: whitesmoke;
+      text-shadow: 0.5px 0.5px 3.5px black;
       cursor: pointer;
       display: inline-block;
       font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -278,7 +284,7 @@
     }
   
     select{
-      background-color: #EA4C89;
+      background-color: #4b7447;
       width: 6em;
     }
   
@@ -314,26 +320,28 @@
       row-gap: 3em;
       justify-items: center;
       align-items: center;
-      background-color: RGB(39, 94, 145);
+      background-color: #8eba43;
     }
   
     h1{
       color: aliceblue;
-      font-size: 4em;
+      text-shadow: 0.5px 0.5px 4.5px black;
+      font-size: 3em;
     }
   
     h2{
       display: flex;
+      text-shadow: 0.5px 0.5px 3.5px black;
       flex-direction: column;
       gap: 0.5em;
       justify-items: center;
       align-items: center;
-      font-size: 1em;
+      font-size: 1.5em;
       color: aliceblue;
     }
   
     img{
-      transition: 1s;
+      transition: 0.3s;
       width: 3em;
       height: 3em;
       background-color: white;
@@ -343,8 +351,8 @@
     }
   
     img:hover{
-      transform: scale(1.2) rotate(360deg);
-      transition: 1s;
+      transform: scale(1.2);
+      transition: 0.3s;
     }
   
     .hidden{
@@ -364,8 +372,8 @@
       justify-items: center;
       align-items: center;
       border-radius: 5%;
-      width: 25em;
-      height: 25em;
+      width: 18.2em;
+      height: 18.2em;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
       background-color: white;
@@ -378,12 +386,12 @@
   
     .boardSquare{
       display: flex;
-      width: 2em;
-      height: 2em;
+      width: 1.3em;
+      height: 1.3em;
       justify-content: center;
       align-items: center;
       border: 0.06em solid white;
-      background-color: rgb(19, 73, 122);
+      background-color: rgb(24, 28, 31);
       border-radius: 9%;
       font-size: 4em;
       font-family: boardFont;
@@ -396,27 +404,30 @@
     #resultDisplay{
       font-size: 2.5em;
       font-weight: 600;
+      text-shadow: 5px 5px 5px black;
+      
     }
   
     button, select{
       justify-content: center;
       align-items: center;
-      padding: 8px;
+      padding: 1px;
       border: none;
-      background-color: #EA4C89;
+      background-color: #f9dc24;
+      text-shadow: 0.5px 0.5px 3.5px black;
       border-radius: 8px;
       border-style: none;
       box-sizing: border-box;
-      color: #FFFFFF;
+      color: whitesmoke;
       cursor: pointer;
       display: inline-block;
       font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 1em;
+      font-size: 1.4em;
       font-weight: 500;
       width: 4em;
       height: 2em;
       list-style: none;
-      margin: 0;
+      margin: 1.3em 0em 0em 0em;
       outline: none;
       position: relative;
       text-align: center;
@@ -425,7 +436,7 @@
     }
   
     select{
-      background-color: #EA4C89;
+      background-color: #4b7447;
       width: 6em;
     }
   

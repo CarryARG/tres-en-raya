@@ -59,8 +59,7 @@
   
       function renderCellSelection(cell, avatar) {
         (avatar === "O") ? cell.textContent = "O" : cell.textContent = "X";
-        (cell.textContent === "O") ? cell.style.color = "tomato" :
-          cell.style.color = "rgb(80, 153, 72)";
+        (cell.textContent === "O") ? (cell.style.color = "orange") : (cell.style.color = "whitesmoke");
       }
   
       function makeGridClickable() {
@@ -203,15 +202,15 @@
         board.classList.add("desactivatedBoard");
         resetButton.classList.remove("pressed");
         if (result === "Win") {
-          (player.avatar === "O") ? resultDisplay.style.color = "tomato" :
-            resultDisplay.style.color = "rgb(80, 153, 72)";
+          (player.avatar === "O") ? resultDisplay.style.color = "orange" :
+            resultDisplay.style.color = "whitesmoke";
           resultDisplay.textContent = `Player "${player.avatar}" Wins!`;
           boardSquares.forEach((e) => {
             (e.textContent === player.avatar) ?
               e.classList.add("winner") : () => { };
           });
         } else {
-          resultDisplay.style.color = "rgb(237, 213, 74)",
+          resultDisplay.style.color = "#4b7447",
           resultDisplay.textContent = `Draw.`;
         }
       }
